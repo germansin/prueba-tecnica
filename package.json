@@ -4,6 +4,7 @@
   "description": "Prueba tecnica desarrollo Node.js",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "lint": "eslint .  --ext .js",
     "lint-fix": "eslint .  --ext .js --fix",
     "test": "mocha --recursive --exit"

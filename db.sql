@@ -9,7 +9,7 @@
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
-SET time_zone = "+00:00";
+SET time_zone = "-05:00";
 
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
@@ -20,12 +20,14 @@ SET time_zone = "+00:00";
 --
 -- Base de datos: `test`
 --
-
 -- --------------------------------------------------------
 
 --
 -- Estructura de tabla para la tabla `product`
 --
+ALTER USER 'root'@'%' IDENTIFIED WITH mysql_native_password BY 'root';
+
+USE test;
 
 CREATE TABLE `product` (
   `idproducto` int(11) NOT NULL,
