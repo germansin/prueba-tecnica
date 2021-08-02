@@ -1,6 +1,6 @@
 # prueba-tecnica
 
-Prueba tecnica para evaluacion de Node 
+Prueba tecnica para evaluacion de Node , german.amaro@gmail.com
 
 <h2>Como ejecutar con docker</h2>
 <ol>
@@ -51,7 +51,17 @@ Prueba tecnica para evaluacion de Node
 	</li>
 </ol>
 
-<h2>/registra-compra</h2>
+<h2>Arquitectura del backend</h2>
+<ol>
+	<li>
+		API Rest: node.js , exoress , mysql
+	</li>
+	
+	<li>
+		Test: mocha, supertest
+	</li>
+</ol>
+<h2>localhost:3001/registrar-compra</h2>
 <code>
 { "idproducto": 1,
   "cantidad": 2,
@@ -59,10 +69,14 @@ Prueba tecnica para evaluacion de Node
 }
 </code>
 
-<h2>/registra-venta</h2>
+<h2>localhost:3001/registrar-venta</h2>
 <code>
 { "idproducto": 1,
   "cantidad": 5,
   "fecha":"2021-08-01"
 }
 </code>
+
+<h2>localhost:3001/products</h2>
+Consulta de stock de productos
+
