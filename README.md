@@ -5,6 +5,7 @@ Prueba tecnica para evaluacion de Node , german.amaro@gmail.com
 <h2>Como ejecutar con docker</h2>
 <ol>
 	<li>Clonar el proyecto rama master</li>
+	<li>Renombrar el archivo _env a .env e ingresar los valores</li>
 	<li>
 		Ubicarse dentro del directorio y ejecutar <code>docker-compose up</code>
 	</li>
